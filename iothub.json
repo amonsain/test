@@ -74,6 +74,7 @@
     {
       "type": "Microsoft.Devices/iotHubs/eventhubEndpoints/ConsumerGroups",
       "apiVersion": "2018-04-01",
+      "name": "pid-d5f74b98-e8b0-5dd3-a655-9f018bd2c570",
       "name": "[variables('consumerGroupName')]",
       "dependsOn": [
         "[resourceId('Microsoft.Devices/IotHubs', parameters('iotHubName'))]"
